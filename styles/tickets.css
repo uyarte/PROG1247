@@ -1,0 +1,93 @@
+/* paddin and margin reset value */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 600px;
+	margin: 20px auto;
+	padding: 0px 20px 20px 20px;
+	background-color: #fffded;
+}
+
+/* the styles for the form */
+label {
+    float: left;
+    width: 12em;
+    text-align: right;
+	font-size: 90%;
+}
+
+/* Spacial selector id for achieve the radiobottons  in the same line */
+.radiobottons {
+    width: 2em;
+	float: left;
+	margin-left:2em;
+}
+.radioleft{
+	text-align: left;
+	width: 6em;
+}
+
+/* Class selector to defined one drop menu in the left while the other was on the right, both floating in the same line */
+select#expirationdate{
+    width: 7em;
+	float: left;
+	margin-right:1em;
+}
+select#date{
+    width: 5em;
+	float: left;
+	margin-left:1em;
+}
+
+/* To defined the widht and the text alignation */
+label{
+	float:left;
+	width:12em;
+	text-align:right;
+}
+
+/* Assignment requirements */
+label, input, select {
+    font-size: 90%;
+}
+
+/* Assignment requirements */
+input, select {
+    width: 15em;
+    margin-left: .5em;
+    margin-bottom: .5em;
+	font-size: 90%;
+}
+
+/* To change de color of the requeried input border boxes*/
+input:required,input[required]{
+	border:2px solid #e9ab30;
+}
+
+#buttons input {
+    width: 10em;
+}
+
+/* Assignment requirements */
+fieldset {
+    margin-top: 1em;
+	margin-bottom:1em;
+	padding-top:0.5em;
+}
+
+fieldset#buttons {
+    margin-top: 1em;
+}
+/* Assignment requirements */
+legend {
+    color: Gray;
+    font-weight: bold;
+    font-size: 85%;
+	margin-top: 0.5em;
+	margin-bottom:0.5em;
+}
